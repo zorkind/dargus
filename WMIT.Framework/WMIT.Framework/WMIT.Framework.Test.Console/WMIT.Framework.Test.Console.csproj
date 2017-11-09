@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CB40403B-6489-4CAD-96CA-7D8248A8FC51}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WMIT.Framework.Test.Console</RootNamespace>
+    <AssemblyName>WMIT.Framework.Test.Console</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WMIT.Framework.BLL\WMIT.Framework.BLL.csproj">
+      <Project>{2796ae35-adb6-42aa-8db5-dd234b7badca}</Project>
+      <Name>WMIT.Framework.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMIT.Framework.DAL\WMIT.Framework.DAL.csproj">
+      <Project>{c91ec820-0aef-44ae-b974-671906b67b1a}</Project>
+      <Name>WMIT.Framework.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMIT.Framework.Test.BLL\WMIT.Framework.Test.BLL.csproj">
+      <Project>{538a9562-83f3-4dfb-a6c8-8eb3c00f9b70}</Project>
+      <Name>WMIT.Framework.Test.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMIT.Framework.Test.Model\WMIT.Framework.Test.Model.csproj">
+      <Project>{bf59c5f1-8e2e-4ffc-a59a-568ad9b7d6fc}</Project>
+      <Name>WMIT.Framework.Test.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMIT.Framework.Test.Repository\WMIT.Framework.Test.Repository.csproj">
+      <Project>{4f3f4407-ee1f-4a1d-aa7b-893faf0135ce}</Project>
+      <Name>WMIT.Framework.Test.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMIT.Framework.Test.VO\WMIT.Framework.Test.VO.csproj">
+      <Project>{18bf548c-0dbf-467c-b7d5-5c859234e6fc}</Project>
+      <Name>WMIT.Framework.Test.VO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMIT.Framework.Utilitarios\WMIT.Framework.Utilitarios.csproj">
+      <Project>{d596bbb7-ca73-469d-8a66-f4c082b4a93c}</Project>
+      <Name>WMIT.Framework.Utilitarios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WMIT.Framework.VO\WMIT.Framework.VO.csproj">
+      <Project>{9b3433d6-e850-4c39-a235-9018acbb885d}</Project>
+      <Name>WMIT.Framework.VO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

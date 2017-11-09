@@ -3,3 +3,26 @@
 ################################################################################
 
 /WMIT.Framework/WMIT.Framework/.vs/WMIT.Framework/v15/Server/sqlite3
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.BLL/bin
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.BLL/obj
+*.vspscc
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.DAL/obj
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.DAL/bin
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Test.BLL/bin
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Test.BLL/obj
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Test.Console/bin
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Test.Console/obj
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Test.DAL/bin
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Test.DAL/obj
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Test.Model/bin
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Test.Model/obj
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Test.Model_/obj
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Test.Repository/bin
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Test.Repository/obj
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Test.Repository_/obj
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Test.VO/bin
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Test.VO/obj
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Utilitarios/bin
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.Utilitarios/obj
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.VO/bin
+/WMIT.Framework/WMIT.Framework/WMIT.Framework.VO/obj
